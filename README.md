@@ -23,3 +23,10 @@ In MainWindow, click the "Load" button and wait.
 After a while(approximately 20 secs), the progress bar will increase to 100%, which is the symbol of the fin of the load task.  
 Click "Cancel" button to quit to the Wizard if you have chosen the wrong fields.  
 ![Cancel](GIF/Cancel.gif)
+
+## Select Grids
+
+A screen-shot style grids selection method has been implemented.  
+Click the "Select Area" button, your desktop will be in dark mode and simple press and move your mouse to choose grids(highlighted) you're interested in.    
+Press "Enter" key to quit after selection, "Esc" key to force quit.  
+![Select Grids](GIF/SelectAndLoad)
