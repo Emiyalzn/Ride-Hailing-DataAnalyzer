@@ -11,6 +11,9 @@
 ## Wizard
 
 Set the correct path of the dataset.
-! Pay attention that you should choose the parent directory of the folder "dataset".
+Pay attention that you should choose the parent directory of the folder "dataset".
 Choose fields you're interested in.
 Click OK and you'll enter the Mainwindow.
+![Simple Wizard](GIF/Wizard.gif)
+
+## Load Data from .csv files
