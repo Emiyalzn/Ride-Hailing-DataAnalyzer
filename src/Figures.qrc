@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/My">
+        <file>figures/Chengdu_Map.png</file>
+        <file>NN_model/model2.json</file>
+        <file>figures/Taxi_1.ico</file>
+        <file>figures/Taxi_2.ico</file>
+    </qresource>
+</RCC>
