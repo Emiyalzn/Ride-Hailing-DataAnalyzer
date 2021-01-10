@@ -33,11 +33,14 @@ Press "Enter" key to quit after selection, "Esc" key to force quit.
 
 ## Chart Analysis
 
-Click "Query" button to access for your chart.(It will be shown on the right)  
-Edit two lineEdits above to tune start and end time.Choose your timeStep either click the spinbox or drag the slider.  
+Click "Query" button to access for your chart.(It will be shown on the right)   
+Edit two lineEdits above to tune start and end time.  
+Choose your timeStep either click the spinbox or drag the slider.    
 ![Chart Analysis](GIF/OrderChart.gif)
+
 Switch radio buttons to change your chart type.
 ![Mutiple Chart Type](GIF/MultipleCharts.gif)
+
 We also realized rubberband to analyze the chart in details.
 ![Rubberband](GIF/ChartView.gif)
 
