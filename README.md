@@ -29,4 +29,15 @@ Click "Cancel" button to quit to the Wizard if you have chosen the wrong fields.
 A screen-shot style grids selection method has been implemented.  
 Click the "Select Area" button, your desktop will be in dark mode and simple press and move your mouse to choose grids(highlighted) you're interested in.    
 Press "Enter" key to quit after selection, "Esc" key to force quit.  
-![Select Grids](GIF/SelectAndLoad)
+![Select Grids](GIF/SelectAndLoad.gif)
+
+## Chart Analysis
+
+Click "Query" button to access for your chart.(It will be shown on the right)  
+Edit two lineEdits above to tune start and end time.Choose your timeStep either click the spinbox or drag the slider.  
+![Chart Analysis](GIF/OrderChart.gif)
+Switch radio buttons to change your chart type.
+![Mutiple Chart Type](GIF/MultipleCharts.gif)
+We also realized rubberband to analyze the chart in details.
+![Rubberband](GIF/ChartView.gif)
+
