@@ -68,8 +68,8 @@ Click "Plan Route" button for navigation information.
 
 Time prediction is implemented by two methods.  
 1. Find spatial and time related orders in the dataset and compute their average travel time as the output.  
-2. Train neural network on the dataset and use the model for prediction.
-   NN information:
+2. Train neural network on the dataset and use the model for prediction.(Especially useful when the average algorithm gives no results)  
+   NN information:  
     1. Input(29-dimension vector):
     ```
     startTime one-hot(5-dimension vector)
@@ -86,4 +86,5 @@ Time prediction is implemented by two methods.
 Simply click the "Estimate Time" button after input the origin and destination name, the result will show in the tableWidget on the left.
 ![Predict](GIF/Predict.gif)
 
+## Related Files
 
