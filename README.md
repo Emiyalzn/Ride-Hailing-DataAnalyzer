@@ -18,3 +18,8 @@ Click OK and you'll enter the Mainwindow.
 ![Simple Wizard](GIF/Wizard.gif)
 
 ## Load Data from .csv files
+
+In MainWindow, click the "Load" button and wait.  
+After a while(approximately 20 secs), the progress bar will increase to 100%, which is the symbol of the fin of the load task.  
+Click "Cancel" button to quit to the Wizard if you have chosen the wrong fields.  
+![Cancel](GIF/Cancel.gif)
