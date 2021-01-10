@@ -89,7 +89,11 @@ Simply click the "Estimate Time" button after input the origin and destination n
 
 ## Related Files
 
-If you are a SJTUer, you could download my CS241 class final report, slides and video through jBox.  
+If you are a SJTUer, feel free to download my CS241 final project dataset, assignment, report, slides and video through jBox.  
+
+[Dataset](https://jbox.sjtu.edu.cn/l/hJjlxi)
+
+[Assignment](https://jbox.sjtu.edu.cn/l/J5z6kU)
 
 [Report](https://jbox.sjtu.edu.cn/l/hJjlxh)
 
