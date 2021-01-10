@@ -46,19 +46,26 @@ We also realized rubberband to analyze the chart in details.
 
 ## Thermal Diagram
 
-Based on the area you have selected, the app will call the Gaode API to return a pixture on "Thermal Diagram" widget.  
+Based on the area you have selected, the app will call the [Gaode's API](https://lbs.amap.com/api/webservice/) to return a pixture on "Thermal Diagram" widget.  
 Choose start time and time step using DateTimeEdit or the comboBox above.  
 Click "Query" button or drag the slider below to ask for heat map on different time.(The slider could be moved by "→" or "←" on the keyBoard)  
 ![Thermal Diagram](GIF/ThermalDiagram.gif)
 
 ## Navigation
-Navigation has been done using [Gaode's API](https://lbs.amap.com/api/webservice/)
-Input location names in lineEdits and the Completer will appear, allowing you to choose exactly one of them.
+
+Navigation has been done using [Gaode's API](https://lbs.amap.com/api/webservice/).  
+Input location names in lineEdits and the Completer will appear, allowing you to choose exactly one of them.  
 Pay attention that:
 ```
 Must enter one key first to activate the Completer. For example, first"麦" then "当" and the Completer will appear.
 Must choose one place in Completer for right service.
 Press "Enter" key or click other widgets to enable "Plan Route" button after setting start and end locations.
-```
-Click "Plan Route" button for navigation information.
+```  
+Click "Plan Route" button for navigation information.  
 ![Route Planning](GIF/Navigation.gif)
+
+## Time Prediction
+
+Time prediction is implemented by two methods.
+1. Find spatial and time related orders in the dataset and compute their average travel time as the output.
+2. Train neural network on the dataset and use the model for prediction.
