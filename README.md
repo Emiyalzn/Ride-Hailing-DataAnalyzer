@@ -69,3 +69,21 @@ Click "Plan Route" button for navigation information.
 Time prediction is implemented by two methods.
 1. Find spatial and time related orders in the dataset and compute their average travel time as the output.
 2. Train neural network on the dataset and use the model for prediction.
+   NN information:
+        1.Input(29-dimension vector):
+        ```
+        startTime one-hot(5-dimension vector)
+        weekday one-hot(2-dimension one-hot)
+        standardization origin longtitude and latitude
+        origin spatial one-hot(9-dimension one-hot)
+        standardization destination longtitude and latitude
+        destination spatial one-hot(9-dimension one-hot)
+        ```
+        2.Network: 6 Linear layer with Relu activate function
+        3.Output: standardization predict time
+        4.Accuracy: The average deviation is 4min, and the deviation is less than 5min with the probability 77.5%.
+        
+Simply click the "Estimate Time" button after input the origin and destination name, the result will show in the tableWidget on the left.
+![Predict](GIF/Predict.gif)
+
+
